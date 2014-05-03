@@ -6,3 +6,25 @@ body {
 a {
   color: #00B7FF;
 }
+
+.chart rect {
+  fill: steelblue;
+}
+.chart rect:hover {
+  fill: #fe3800;
+}
+.chart .bar {
+  fill: steelblue;
+}
+.chart .bar:hover {
+  fill: brown;
+}
+.chart .axis {
+  font: 10px sans-serif;
+}
+.chart .axis path,
+.chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

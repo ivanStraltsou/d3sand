@@ -1,4 +1,4 @@
-@import "compass/css3";
+@import "compass";
 
 body {
   padding: 50px;
@@ -7,4 +7,33 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+.chart {
+  rect {
+    fill: steelblue;
+
+    &:hover {
+      fill: #fe3800;
+    }
+  }
+
+  .bar {
+    fill: steelblue;
+  }
+
+  .bar:hover {
+    fill: brown;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
 }

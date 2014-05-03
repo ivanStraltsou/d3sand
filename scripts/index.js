@@ -9,4 +9,4 @@ var data = [
   {name: "Kwon",     value: 42}
 ];
 
-bar.init(data);
+bar.init('/data.tsv');
